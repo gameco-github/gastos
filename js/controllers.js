@@ -7,7 +7,7 @@ function ($scope, $stateParams,$Global) {
   
   $scope.agregarFondo = function(data){
       var settings ={ 
-            "url": "http://gameco.dev/api/agregarFondo",
+            "url": "http://gamecotools.com.mx/api/agregarFondo",
             "method": "POST",
             "data": {
               "id": "9",
@@ -38,7 +38,7 @@ function ($scope, $stateParams,$ionicPopup, Login, $Global, $state, $ionicPopup)
 
         }else{ 
     		var settings ={	
-    			  "url": "http://gameco.dev/api/auth_login",
+    			  "url": "http://gamecotools.com.mx/api/auth_login",
     			  "method": "POST",
     			  "data": {
     			    "email": $scope.login.email,
@@ -123,7 +123,7 @@ function ($scope, $stateParams, MostrarType, GuardarGasto, $Global, $ionicPopup)
         }
         if($scope.bandera){
           var settings ={ 
-              "url": "http://gameco.dev/api/gastos",
+              "url": "http://gamecotools.com.mx/api/gastos",
               "method": "POST",
               "data": {
                 "id": $Global.id,
