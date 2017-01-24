@@ -30,7 +30,7 @@ angular.module('app.services', [])
 		var settings = {
 		  "async": true,
 		  "crossDomain": true,
-		  "url": "http://gameco.dev/api/auth_login",
+		  "url": "http://gamecotools.com.mx/api/auth_login",
 		  "method": "POST",
 		  "headers": {
 		    "authorization": "Basic ZWxpZ2lvX2FycmVvbGFAaG90bWFpbC5jb206bm9tYXMxMg==",
